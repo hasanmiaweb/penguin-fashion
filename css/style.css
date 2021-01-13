@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive, 'Roboto', sans-serif;
+}
+
+/*Header Background Start*/
+.bg-light {
+    background-color: rgb(248 249 250 / 0%) !important;
+}
+
+#banner-and-header{
+    background-image: url(../images/backgroud.png);
+    height: auto;
+}
+/*Header Background End*/
+
+/*Main Primary Menu Start*/
+.navbar-light .navbar-nav .nav-link{
+    color: #3C3C3C;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #A4BC46;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #A4BC46;
+}
+
+/*Main Primary Menu End*/
+
+
+/*Top Banner Section Start*/
+
+.top-banner-text-left h2 {
+    font-size: 81px;
+    font-weight: 590;
+    font-family: 'Bebas Neue';
+}
+.top-banner-text-left span {
+    color: #FABE4C;
+}
+
+.top-banner-text-left {
+    padding-top: 50px;
+}
+
+.top-banner-text-left p {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #3E3E3E;
+}
+
+.buy-now-btn span {
+    font-size: 16px;
+    font-family: roboto;
+    color: white;
+    background-color: #A4BC46;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 15px 30px;
+    transition: .5s ease;
+}
+
+.buy-now-btn span a {
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+.buy-now-btn span:hover {
+    background: #ffab0b;
+    transition: .3s ease;
+}
+/*Top Banner Section End*/
+
+/*Product Section Start*/
+.card-title {
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.card {
+    border: none;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 0px 9px 4px #e8e8e8;
+}
+
+
+.section-title h2 {
+    font-size: 48px;
+    color: #363958;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+}
+
+img.card-img-top {
+    background: #F1F1F1;
+    padding: 10px;
+    height: 336px;
+    border-radius: 10px;
+}
+
+.card-body h3 {
+    color: #FABE4C;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Roboto';
+}
+
+/*Product Section End*/
