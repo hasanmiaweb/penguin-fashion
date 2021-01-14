@@ -1,200 +1,294 @@
-
-/*Responsive Screen 320 End*/
-@media (max-width: 320px) {
+/*Responsive Screen 320 start*/
+@media (max-width: 320px){
     .navbar-brand img {
         width: 210px;
     }
-    .top-banner-text-left h2{
-        font-size: 50px;
-    }
+   
     .top-banner-text-left {
         padding-top: 0px;
     }
+    .top-banner-text-left h2 {
+        font-size: 50px;
+        font-weight: 590;
+        font-family: 'Bebas Neue';
+    }
     .top-banner-right-image {
-        margin-top: 30px;
+        padding-top: 30px;
     }
-    .buy-now-btn span {
-        font-size: 14px;
-        padding: 15px 14px;
+    .card-body h3 {
+        font-size: 33px;
     }
-    .card{
-        margin: 13px;
+    .buy-now-btn {
+        padding-top: 11px !important;
+    }
+    .card {
+        margin-top: 15px;
+    }
+    #our-service-section {
+        margin-top: 60px;
+    }
+    .service-features-dec {
+        margin-left: 10px;
     }
     .service-features-dec h4 {
         font-size: 16px;
     }
     .section-title h2 {
-        font-size: 36px;
+        font-size: 39px;
     }
-
-    #our-service-section {
-        margin-top: 40px;
+    .best-selling-product-inner {
+        padding: 10px;
+        box-shadow: 0px 0px 11px -8px black;
+        margin-top: 15px;
     }
-    #footer-top-section {
-        background-color: #ecececb3;
-        margin-top: -60px;
-    }
-
-    .support-links {
-        margin-top: -40px;
-    }
-
-    footer {
-        font-size: 12px;
-
-    }
-    .payment-image {
-        margin-top: -49px;
-    }
-
-    .support-links h3 {
-        padding-left: 0;
-    }
-    .service-features-dec {
-        margin-left: 10px;
-    }
-
     .best-selling-product-inner img {
         width: 100%;
     }
-    .best-selling-product-inner {
-        margin-top: 17px;
+    
+    #footer-top-section {
+        text-align: center;
     }
+    .payment-image {
+        margin-top: -40px;
+    }
+    .support-links {
+        text-align: center;
+    }
+    .support-links ul {
+        padding-left: 0;
+    }
+    .support-links h3 {
+        padding-left: 0;
+    }
+    .support-links {
+        margin-top: 0;
+        text-align: center;
+    }
+    footer span{
+        font-size: 12px;
+    }
+    .footer-top-contact {
+        margin-bottom: -50px;
+    }
+
 }
 /*Responsive Screen 320 End*/
 
 /*Responsive Screen 375 Start*/
-@media (min-width: 375px){
+@media (max-width: 375px){
     .navbar-brand img {
-        width: 230px;
+        width: 210px;
     }
-    .top-banner-text-left h2{
-        font-size: 50px;
-    }
+
     .top-banner-text-left {
         padding-top: 0px;
     }
+    .top-banner-text-left h2 {
+        font-size: 50px;
+        font-weight: 590;
+        font-family: 'Bebas Neue';
+    }
     .top-banner-right-image {
-        margin-top: 30px;
+        padding-top: 30px;
     }
-    .best-selling-product-inner img {
-        width: 100%;
+    .card-body h3 {
+        font-size: 33px;
     }
-    .best-selling-product-inner {
-        margin-top: 17px;
+    .buy-now-btn {
+        padding-top: 11px !important;
     }
-    .service-features-dec h4{
-        font-size: 20px;
+    .card {
+        margin-top: 15px;
+    }
+    #our-service-section {
+        margin-top: 60px;
     }
     .service-features-dec {
         margin-left: 10px;
     }
-    footer {
+    .service-features-dec h4 {
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 39px;
+    }
+    .best-selling-product-inner {
+        padding: 10px;
+        box-shadow: 0px 0px 11px -8px black;
+        margin-top: 15px;
+    }
+    .best-selling-product-inner img {
+        width: 100%;
+    }
+    
+    #footer-top-section {
+        text-align: center;
+    }
+    .payment-image {
+        margin-top: -40px;
+    }
+    .support-links {
+        text-align: center;
+    }
+    .support-links ul {
+        padding-left: 0;
+    }
+    .support-links h3 {
+        padding-left: 0;
+    }
+    .support-links {
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer-top-contact {
+        margin-bottom: -50px;
+    }
+    footer{
         font-size: 15px;
+    }
+    .discount {
+        font-size: 30px;
+        padding-bottom: 10px;
     }
 
 }
 /*Responsive Screen 375 End*/
 
 /*Responsive Screen 425 Start*/
-@media (min-width: 425px) {
+
+@media (max-width: 425px){
     .navbar-brand img {
-        width: 270px;
+        width: 210px;
     }
-    .top-banner-text-left h2{
-        font-size: 50px;
-    }
+
     .top-banner-text-left {
         padding-top: 0px;
     }
-    .best-selling-product-inner img {
-        width: 100%;
+    .top-banner-text-left h2 {
+        font-size: 50px;
+        font-weight: 590;
+        font-family: 'Bebas Neue';
     }
-    .best-selling-product-inner {
-        margin-top: 17px;
+    .top-banner-right-image {
+        padding-top: 30px;
     }
-}
-/*Responsive Screen 425 End*/
 
-/*Responsive Screen 768 Start*/
-@media (min-width: 768px) {
-    
-    .card-body h3{
-        font-size: 20px;
+    .card {
+        margin-top: 15px;
     }
-    .card-title h5 {
-        font-size: 15px;
-        font-family: 'Roboto';
-        font-weight: 800;
-    }
-    .buy-now-btn {
-        padding-top: 2px !important;
-    }
-    .buy-now-btn span{
-        font-size: 14px;
-        padding: 15px 10px;
-    }
-    .services-features-image {
-        margin-top: 80px !important;
+    #our-service-section {
+        margin-top: 60px;
     }
     .service-features-dec {
         margin-left: 10px;
     }
     .service-features-dec h4 {
-        font-size: 20px;
-        font-family: 'Roboto';
-        font-weight: 700;
+        font-size: 16px;
     }
-    .service-features-dec p {
-        width: 100%;
-        font-size: 15px;
-        font-family: 'Roboto';
-        font-weight: 500;
+    .section-title h2 {
+        font-size: 39px;
     }
-
+    .best-selling-product-inner {
+        padding: 10px;
+        box-shadow: 0px 0px 11px -8px black;
+        margin-top: 15px;
+    }
     .best-selling-product-inner img {
         width: 100%;
     }
-
-    .best-selling-title h3 {
-        font-size: 16px;
+    
+    #footer-top-section {
+        text-align: center;
     }
-    .best-selling-title a {
+    .payment-image {
+        margin-top: -40px;
+    }
+    .support-links {
+        text-align: center;
+    }
+    .support-links ul {
+        padding-left: 0;
+    }
+    .support-links h3 {
+        padding-left: 0;
+    }
+    .support-links {
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer-top-contact {
+        margin-bottom: -50px;
+    }
+    footer{
         font-size: 15px;
+    }
+    
+    .discount {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}
+/*Responsive Screen 425 End*/
+
+/*Responsive Screen 768 Start*/
+@media (max-width: 768px){
+    .top-banner-text-left {
+        padding-top: 10px;
+    }
+    .top-banner-text-left h2 {
+        font-size: 60px;
+        font-weight: 590;
+        font-family: 'Bebas Neue';
+    }
+    .card-title h5 {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .card-body h3 {
+        font-size: 24px;
+    }
+    .buy-now-btn span{
+        font-size: 14px;
+        padding: 10px 6px;
+    }    
+    .buy-now-btn {
+        margin-top: -10px;
+    }
+
+    #our-service-section {
+        margin-top: 70px;
+        margin-bottom: 130px;
+    }
+
+    .services-features-image {
+        padding-top: 80px;
     }
     .discount {
         font-size: 30px;
-        padding-bottom: 8px;
+        padding-bottom: 10px;
     }
+
+    .card-body h3 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
 }
 /*Responsive Screen 768 End*/
 
 /*Responsive Screen 1024 Start*/
-
-@media (min-width: 1024px) {
-    .top-banner-text-left h2{
-        font-size: 62px;
-        
-    }
-    .card-title h5 {
-        font-size: 22px;
-        font-family: 'Roboto';
-        font-weight: 700;
+@media (max-width: 1024px){
+    .card-body h3 {
+        font-size: 24px;
     }
 
-    .top-banner-text-left {
-        padding-top: 50px;
-    }
-   
-    .buy-now-btn span {
-        font-size: 17px;
-        padding: 15px 19px;
-    }
-   .card-body h3{
-       font-size: 30px;
-   }
     .buy-now-btn {
-        padding-top: 7px !important;
+        margin-top: -10px;
+    }
+
+    .discount {
+        font-size: 30px;
+        padding-bottom: 10px;
     }
 }
 /*Responsive Screen 1024 End*/
