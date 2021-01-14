@@ -82,8 +82,8 @@ body{
 /*Top Banner Section End*/
 
 /*Product Section Start*/
-.card-title {
-    font-size: 24px;
+.card-title h5 {
+    font-size: 25px;
     font-family: 'Roboto';
     font-weight: 700;
 }
