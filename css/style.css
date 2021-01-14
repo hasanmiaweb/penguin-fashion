@@ -151,6 +151,8 @@ img.card-img-top {
     box-shadow: 0px 0px 16px 0px #e2e2e2;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .service-features-dec h4 {
