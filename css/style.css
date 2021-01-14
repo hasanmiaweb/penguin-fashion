@@ -100,6 +100,9 @@ body{
     background: white;
     box-shadow: 0px 0px 9px 4px #e8e8e8;
 }
+.card:hover {
+    background: #fffbfb;
+}
 
 
 .section-title h2 {
@@ -162,3 +165,97 @@ img.card-img-top {
     width: 130px;
 }
 /*Our Services Features End*/
+
+/*best selling product category Start*/
+.best-selling-product{
+    margin-bottom: 130px;
+}
+.best-selling-product-inner {
+    padding: 10px;
+    box-shadow: 0px 0px 11px -8px black;
+}
+.best-selling-product-inner:hover{
+    background-color: rgb(247 247 247)
+}
+.best-selling-title h3 {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.best-selling-title h3:hover {
+    color: #a4bc46;
+    transition: .5s ease;
+}
+
+.best-selling-title a {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.discount {
+    font-size: 30px;
+}
+
+.discount del {
+    color: red;
+}
+
+.discount span {
+    color: #212120;
+}
+
+.buy-now-bestselling a {
+    padding: 10px 30px;
+    background: #ffc107;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+}
+/*best selling product category End*/
+/*Footer top section Start*/
+#footer-top-section{
+    background-color: #ecececb3;
+}
+.footer-top-contact h4 {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.social-links i {
+    font-size: 30px;
+    color: #dc3545;
+    padding-right: 15px;
+}
+
+.support-links ul li a {
+    color: #a4bc46;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.support-links ul li {
+    list-style: none;
+}
+
+.support-links h3 {
+    padding-left: 30px;
+}
+
+/* Footer top section End */
+
+/*Footer Bottom Section Start*/
+#footer-bottom {
+    background: #28282f;
+    color: white;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+/*Footer Bottom Section End*/
